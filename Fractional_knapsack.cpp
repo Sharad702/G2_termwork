@@ -40,7 +40,7 @@ int main()
     cin>>size;
     pair<int,int> array[size];
 
-    cout<<"Enter the weight and value of items : ";
+    cout<<"Enter the value and weight of items : ";
     for(int i = 0; i < size; i++)
     {
         cin>>array[i].first>>array[i].second;
